@@ -6,6 +6,15 @@ setup = function() {
 
   // a handy dandy ruler across the top
   var x = 0;
+  while(x < 400){
+    text(x,x,15);
+    x += 50; 
+  }
+  var y = 0;
+while (y < 400){
+  text(y,1,y);
+  y += 50;
+}
   text(x, x, 20); 
   text(x+50, x+50, 20);
   text(x+100, x+100, 20);
